@@ -123,7 +123,7 @@ Here I aggreagate data using `ddply()` function from "plyr" package and write da
 
 
 
-[filename.csv]: https://github.com/mkhozeev/GettingAndCleaningDataPeerA1        "filename.csv"
-[run_analysis.R]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1        "run_analysis.R"
-[README.md]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1        "README.md"
-[CodeBook.md]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1        "CodeBook.md"
+[filename.csv]: https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/filename.csv        "filename.csv"
+[run_analysis.R]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/run_analysis.R        "run_analysis.R"
+[README.md]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/README.md        "README.md"
+[CodeBook.md]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/CodeBook.md        "CodeBook.md"
