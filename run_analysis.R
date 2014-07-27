@@ -105,6 +105,6 @@ names(All_data_extracted_)[68] <- "Activity_label"
 #calculate average
 library("plyr")
 x <- ddply(All_data_extracted_, .(Subject,Activity_label), numcolwise(mean))
-write.csv(x, "filename.csv")
+write.csv(x, "filename.txt")
 #point 5 done
 ##================================================================

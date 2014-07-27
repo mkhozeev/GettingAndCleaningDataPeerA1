@@ -116,14 +116,14 @@ In this step I renamed columns in `All_data_extracted_` by features data
         #calculate average
         library("plyr")
         x <- ddply(All_data_extracted_, .(Subject,Activity_label), numcolwise(mean))
-        write.csv(x, "filename.csv")
+        write.csv(x, "filename.txt")
 
-Here I aggreagate data using `ddply()` function from "plyr" package and write data to [filename.csv][]
-
-
+Here I aggreagate data using `ddply()` function from "plyr" package and write data to [filename.txt][]
 
 
-[filename.csv]: https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/filename.csv        "filename.csv"
+
+
+[filename.txt]: https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/filename.txt        "filename.csv"
 [run_analysis.R]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/run_analysis.R        "run_analysis.R"
 [README.md]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/README.md        "README.md"
 [CodeBook.md]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/CodeBook.md        "CodeBook.md"

@@ -23,7 +23,7 @@ The main goals of this project are:
 Steps made
 ----------
 
-I downloaded [datasets](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), unzip it to my working directory, create [run_analysis.R][] file with code and upload it to my GitHub repo [called GettingAndCleaningDataPeerA1](https://github.com/mkhozeev/GettingAndCleaningDataPeerA1, "link to my GitHub"). Also I made [README.md][] and [CodeBook.md][] files with tasks and dataset descritions. Results wrote into [filename.csv][] file.
+I downloaded [datasets](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), unzip it to my working directory, create [run_analysis.R][] file with code and upload it to my GitHub repo [called GettingAndCleaningDataPeerA1](https://github.com/mkhozeev/GettingAndCleaningDataPeerA1, "link to my GitHub"). Also I made [README.md][] and [CodeBook.md][] files with tasks and dataset descritions. Results wrote into [filename.txt][] file.
 
 Datasets
 --------
@@ -67,7 +67,7 @@ For join datasets I use `merge()` function
 For rename columns I use `names()`  function
 
 #####Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-In this step I aggregated information from dataset by activity and subject columnt using `ddply()` function from "plyr" and save results by using `write.csv(x, "filename.csv")`
+In this step I aggregated information from dataset by activity and subject columnt using `ddply()` function from "plyr" and save results by using `write.csv(x, "filename.txt")`
 
 Results
 -------
@@ -78,7 +78,7 @@ I create [filename.csv][] with tidy aggregated dataset by my [run_analysis.R][] 
 
 
 
-[filename.csv]: https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/filename.csv        "filename.csv"
+[filename.txt]: https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/filename.txt        "filename.csv"
 [run_analysis.R]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/run_analysis.R        "run_analysis.R"
 [README.md]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/README.md        "README.md"
 [CodeBook.md]:       https://github.com/mkhozeev/GettingAndCleaningDataPeerA1/blob/master/CodeBook.md        "CodeBook.md"
